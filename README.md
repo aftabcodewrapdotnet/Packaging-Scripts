@@ -1,13 +1,25 @@
-# Packaging Scripts
-A collection of enterprise-grade application packaging scripts for use with PSAppDeployToolkit.
+# Packaging-Scripts 🛠️
 
-## LabVIEW 2025 Q3 (WIM-Based)
-This script automates the installation of LabVIEW 2025 using a WIM-mount strategy to minimise local disk footprint during staging.
+A collection of enterprise-grade automation scripts and deployment wrappers designed for Application Packaging and Endpoint Management (SCCM/Intune).
 
-You will need to create a *.wim containing the install binaries from the *.iso LabVIEW ISO
+## 📂 Featured Tools
 
-### Key Features:
-* **Stale Mount Cleanup:** Automatically detects and purges interrupted DISM sessions.
-* **NI Package Manager Integration:** Handles core engine installation and local feed registration.
-* **Exit Code Mapping:** Translates NI-specific codes to standard SCCM/Intune 3010 (Reboot Required) codes.
-* **Post-Install Cleanup:** Removes desktop "junk" shortcuts and purges temporary mount directories.
+### 📦 [LabVIEW-2025](./LabVIEW-2025/)
+A high-complexity PSAppDeployToolkit wrapper.
+*   **Key Tech:** WIM-mounting strategy, DISM cleanup, and custom exit-code mapping.
+*   **Purpose:** Optimizes large-scale National Instruments deployments by minimizing disk footprint.
+
+### 🖼️ [Build-Wim](./Build-Wim/)
+A utility for rapid image creation.
+*   **Key Tech:** PowerShell & DISM API.
+*   **Purpose:** Quickly captures source directories into `.wim` files to support WIM-based application staging.
+
+---
+
+## 🛠️ Global Requirements
+*   **OS:** Windows 10 / 11
+*   **Shell:** PowerShell 5.1+
+*   **Permissions:** Local Administrator (required for DISM and System-level installs)
+
+## 🤝 Contribution & Usage
+These scripts are part of my professional packaging portfolio. Feel free to explore the code. For specific installation instructions, please refer to the `README.md` within each tool's directory.
