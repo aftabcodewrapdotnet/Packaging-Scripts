@@ -3,6 +3,7 @@ A collection of enterprise-grade application packaging scripts for use with PSAp
 
 ## LabVIEW 2025 Q3 (WIM-Based)
 This script automates the installation of LabVIEW 2025 using a WIM-mount strategy to minimize local disk footprint during staging.
+You will need to create a *.wim containing the install binaries from the *.iso LabVIEW ISO
 
 ### Key Features:
 * **Stale Mount Cleanup:** Automatically detects and purges interrupted DISM sessions.
