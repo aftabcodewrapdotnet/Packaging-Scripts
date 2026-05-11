@@ -4,7 +4,7 @@ A collection of enterprise-grade automation scripts and deployment wrappers desi
 
 ## 📂 Featured Tools
 
-### 📦 [LabVIEW-2025](./LabVIEW-2025/)
+### 📦 [LabVIEW 2025](./LabVIEW%202025/)
 PSAppDeployToolkit wrapper.
 *   **Key Tech:** WIM-mounting strategy, DISM cleanup, and custom exit-code mapping.
 *   **Purpose:** Optimises large-scale National Instruments LabVIEW deployments by minimizing disk footprint.
