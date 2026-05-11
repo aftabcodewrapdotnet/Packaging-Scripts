@@ -23,3 +23,11 @@ A utility for rapid image creation.
 
 ## 🤝 Contribution & Usage
 These scripts are part of my professional packaging portfolio. Feel free to explore the code. For specific installation instructions, please refer to the `README.md` within each tool's directory.
+
+
+### 📂 [Quick-Mount-Wim](./Quick-Mount-Wim/)
+
+A GUI-based utility for rapid WIM inspection.
+
+* **Key Tech:** Windows Forms Integration & Mount-WindowsImage.
+* **Purpose:** Provides a file picker to quickly mount WIMs to `C:\MountPath` for manual verification before deployment.
