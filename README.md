@@ -23,13 +23,16 @@ A GUI-based utility for rapid WIM inspection.
 * **Purpose:** Provides a file picker to quickly mount WIMs to `C:\MountPath` for manual verification before deployment.
 
 
-## 🤝 Contribution & Usage
-These scripts are part of my professional packaging portfolio. Feel free to explore the code. For specific installation instructions, please refer to the `README.md` within each tool's directory.
-
-
 ### 🚀 [MSIX-to-CIM](./MSIX-to-CIM/)
 
 Automated conversion for AVD App Attach
 
 * **Key Tech:** CIMFS (Composite File System), MSIXMGR API, and GUI integration.
 * **Purpose:** Streamlines the creation of .cim images from MSIX packages for AVD
+
+
+## 🤝 Contribution & Usage
+These scripts are part of my professional packaging portfolio. Feel free to explore the code. For specific installation instructions, please refer to the `README.md` within each tool's directory.
+
+
+
