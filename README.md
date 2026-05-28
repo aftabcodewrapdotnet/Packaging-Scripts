@@ -33,9 +33,9 @@ Automated conversion for AVD App Attach
 ### 🖋️ [Code-Sign-Utility](./Code-Sign-Utility/)
 SHA256 code-signing for MSI and EXE installers
 
-Key Tech: Microsoft SignTool, SHA256/RFC 3161 compliance, and WinForms UI.
+* **Key Tech: Microsoft SignTool, SHA256/RFC 3161 compliance, and WinForms UI.
 
-Purpose: Simplifies the signing process to ensure installers pass Windows SmartScreen, Intune validation, and enterprise security policies etc
+* **Purpose: Simplifies the signing process to ensure installers pass Windows SmartScreen, Intune validation, and enterprise security policies etc
 
 ## 🤝 Contribution & Usage
 These scripts are part of my professional packaging portfolio. Feel free to explore the code. For specific installation instructions, please refer to the `README.md` within each tool's directory.
