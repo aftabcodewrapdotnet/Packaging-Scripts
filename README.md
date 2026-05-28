@@ -30,6 +30,12 @@ Automated conversion for AVD App Attach
 * **Key Tech:** CIMFS (Composite File System), MSIXMGR API, and GUI integration.
 * **Purpose:** Streamlines the creation of .cim images from MSIX packages for AVD
 
+🖋️ Code-Sign-Utility
+SHA256 code-signing for MSI and EXE installers
+
+Key Tech: Microsoft SignTool, SHA256/RFC 3161 compliance, and WinForms UI.
+
+Purpose: Simplifies the signing process to ensure installers pass Windows SmartScreen, Intune validation, and enterprise security policies etc
 
 ## 🤝 Contribution & Usage
 These scripts are part of my professional packaging portfolio. Feel free to explore the code. For specific installation instructions, please refer to the `README.md` within each tool's directory.
