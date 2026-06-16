@@ -4,6 +4,13 @@ A collection of enterprise-grade automation scripts and deployment wrappers desi
 
 ## 📂 Featured Tools
 
+### 🛠️ [Create Packaging VM](./Create%20Packaging%20VM)
+
+An automated environment-provisioning script for creating clean virtual machines for application packaging 
+
+* **Key Tech:** PowerShell, Winget API, Registry Manipulation, and Sysinternals Integration.
+* **Purpose:** Cleans a baseline machine, deploys essential packaging tools and configures custom `NT AUTHORITY\SYSTEM` shortcuts to streamline application packaging
+
 ### 📦 [LabVIEW 2025](./LabVIEW%202025/)
 PSAppDeployToolkit wrapper.
 *   **Key Tech:** WIM-mounting strategy, DISM cleanup, and custom exit-code mapping.
